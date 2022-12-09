@@ -1,0 +1,21 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-mmr-cblock {
+    display: block !important;
+	border: 2px dashed blue;
+}
+
+.wp-block-mmr-cblock .title {
+    position: relative;
+    top: -10px;
+    left: 8px;
+    font-size: 10px;
+    min-width: 60px;
+    padding: 0 2px;
+    width: fit-content;
+    background: white;
+}

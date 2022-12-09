@@ -1,0 +1,26 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-mmr-cblock {
+  display: block !important;
+  border: 2px dashed blue;
+}
+
+.wp-block-mmr-cblock .title {
+  position: relative;
+  top: -10px;
+  left: 8px;
+  font-size: 10px;
+  min-width: 60px;
+  padding: 0 2px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: white;
+}
+
+/*# sourceMappingURL=index.css.map*/
