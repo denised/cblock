@@ -43,5 +43,3 @@ export default function Edit( { attributes, setAttributes } ) {
 		</div>
 	);
 }
-
-// changename is not defined.
