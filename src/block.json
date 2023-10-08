@@ -1,12 +1,12 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "mmr/cblock",
+	"name": "cblock/block",
 	"version": "0.1.29",
 	"title": "Cblock",
 	"category": "design",
 	"icon": "tablet",
-	"description": "MMR Conditional Block",
+	"description": "Conditional Block",
 	"supports": {
 		"html": false,
         "spacing": {

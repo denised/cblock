@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Cblock
- * Description:       MMR Conditional Block for just us folks
+ * Description:       Control appearance of a block programatically
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Version:           0.1.0

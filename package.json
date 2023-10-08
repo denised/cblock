@@ -1,7 +1,7 @@
 {
 	"name": "cblock",
 	"version": "0.1.0",
-	"description": "MMR cheap-and-dirty Conditional Block.",
+	"description": "Control appearance of a block programatically",
 	"author": "Denise",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",

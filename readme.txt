@@ -1,39 +1,27 @@
 === Cblock ===
-Contributors:      The WordPress Contributors
+Contributors:      Denise Draper
 Tags:              block
-Tested up to:      6.1
+Tested up to:      6.3.1
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+Conditional block that is managed based on code.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+Sometimes it is convenient to include or hide entire blocks depending on various circumstances.
+This plugin provides a simple way to do that, but it does require code (php or javascript) to make it happen.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Please see the full documentation for how to use this plugin on GitHub: https://github.com/denised/cblock
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+This plugin is available from https://github.com/denised/cblock.
 
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/cblock` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
-
-== Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
+1. Clone or download code from https://github.com/denised/cblock, copying the directory into 
+the /wp-content/plugins/ directory of your Wordpress installation.
+1. Activate the plugin through the 'Plugins' screen in WordPress.
 
 == Screenshots ==
 
@@ -45,11 +33,5 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
-= 0.1.0 =
-* Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+= 1.0 =
+* Initial Release
