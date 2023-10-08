@@ -8,7 +8,9 @@ for a common use case: enabling action on a block via code. Each cblock is
 * always present in the DOM
 * by default not visible in the rendered web page
 
-<img src=".assets/minimal_cblock_example.png" style="width:100%; max-width:800px;" alt="image of editor screen">
+This is what it looks like in the block editor
+
+<img src="assets/minimal_cblock_example.png" alt="image of editor screen" style="margin: 10px">
 
 The mechanism is simple: a `cblock` block gets rendered into DOM as a `div` with a specific class and
 attribute that make it easy to target in code.
@@ -24,7 +26,7 @@ to go to a completely React type solution yet, this can be a simple way to bridg
 
 ## Code Examples
 
-The example above generates DOM equivalent to this (don't blame me for the class name, it is auto-generated 😊):
+The example in the image above generates DOM equivalent to this (don't blame me for the class name, it is auto-generated 😊):
 
 ```html
 <div class='... wp-block-cblock-block'  blockname='my-conditional-block'>
@@ -53,7 +55,7 @@ For example, in functions.php, you might have code like this:
     }
 ```
 
-Or, if you are loading some javascript, include a snippet like this at the appropriate location:
+Or, if you are loading some custom javascript, include a snippet like this at the appropriate location:
 
 ```javascript
     if ( /* it is Tuesday, or whatever */ ) {
