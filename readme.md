@@ -43,7 +43,7 @@ For example, in functions.php, you might have code like this:
 
 ```php
     add_action('wp_head', 'maybe_show_content');
-    funcdtion maybe_show_content() {
+    function maybe_show_content() {
         if ( /* it is Tuesday, or whatever */ ) {
             add_action('wp_footer', 'definitely_show_content');
         }
