@@ -1,6 +1,6 @@
 import { useBlockProps, InnerBlocks, InspectorControls } from '@wordpress/block-editor';
 import { PanelBody, PanelRow, TextControl, Icon } from '@wordpress/components';
-import './editor.scss';
+import './editor.css';
 
 export default function Edit( { attributes, setAttributes } ) {
     const changename = (newname)  => {  setAttributes( { blockname: newname }) }

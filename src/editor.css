@@ -4,12 +4,12 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.wp-block-mmr-cblock {
+.wp-block-cblock-block {
     display: block !important;
 	border: 2px dashed blue;
 }
 
-.wp-block-mmr-cblock .title {
+.wp-block-cblock-block .title {
     position: relative;
     top: -10px;
     left: 8px;
